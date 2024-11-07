@@ -5,10 +5,12 @@
 let myArray = [2, 3, 8, 24, 25];   // let myArray = [0, 1, 2, 3, 4]
 
 console.log(myArray[0]); // output: 2
-
 console.log(myArray[4]); // output: 25
-// 2. Using a for loop containing a console.log(...) statement, output each of the values in the array.
 
+// 2. Using a for loop containing a console.log(...) statement, output each of the values in the array.
+for (let i = 0; i < myArray.length; i++) {
+    console.log(myArray[i]);
+}
 
 // 3. Use the push() method to add 5 more values to your array. 
 // - What are the contents of your array now? Where did the new values appear?
