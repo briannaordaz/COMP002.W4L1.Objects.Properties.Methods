@@ -15,7 +15,18 @@ for (let i = 0; i < myArray.length; i++) {
 // 3. Use the push() method to add 5 more values to your array. 
 // - What are the contents of your array now? Where did the new values appear?
 // - Use the pop() statement 3 times on your array. What are the contents of your array now?
+myArray.push(30, 48, 50, 88, 75);
 
+console.log(myArray); // output: (10) [2, 3, 8, 24, 25, 30, 48, 50, 88, 75]
+
+myArray.pop();
+myArray.pop();
+myArray.pop();
+
+console.log(myArray); // output: (7) [2, 3, 8, 24, 25, 30, 48]
 
 // 4. Declare a new string variable “myString” and place a string of your choosing inside.
 // - Output the length of the string inside of a console.log(...) statement.
+let myString = "Minecraft is fun!"
+
+console.log(myString.length);  // output: 17 
