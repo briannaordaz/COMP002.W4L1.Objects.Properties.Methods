@@ -2,10 +2,11 @@
 // - Inside of a console.log(...) statement, output the first value of the array.
 // - Inside of a console.log(...) statement, output the last value of the array.
 // - What numbers did you have to pass as indexes? Why?
-let myArray = [2, 3, 8, 24, 25];
+let myArray = [2, 3, 8, 24, 25];   // let myArray = [0, 1, 2, 3, 4]
 
-console.log(myArray[0]);
+console.log(myArray[0]); // output: 2
 
+console.log(myArray[4]); // output: 25
 // 2. Using a for loop containing a console.log(...) statement, output each of the values in the array.
 
 
